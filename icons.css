@@ -2,13 +2,14 @@
     background-repeat: no-repeat;
     background-size: contain;
     text-indent: -9999px;
-    
+    fill: aqua;
     
 }
 .fi-rs-disk {
     display: block;
     background-image: url(/icons/disk.svg); 
     height: 26px;
+    
 }
 .fi-rr-receipt {
     display: block;
@@ -30,7 +31,8 @@
 .fi-sr-input-numeric {
     display: block;
     background-image: url(/icons/input-numeric.svg); 
-    height: 54px;
+    height: 34px;
+    fill: rgb(177, 177, 177);
 }
 /* .fi-br-align-justify {
     display: block;
