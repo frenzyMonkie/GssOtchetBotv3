@@ -12,13 +12,13 @@
 </head>
 <body>
     
-
+    <div class="header" id="header_main">
+        <i class="header_back fi fi-rr-arrow-small-left"></i>
+        <div class="header_title"> АО Геоспецстрой</div>
+        <i class="header_save fi fi-rs-disk"></i>
+    </div>
     <div class="container">
-        <div class="header" id="header_main">
-            <i class="header_back fi fi-rr-arrow-small-left"></i>
-            <div class="header_title"> АО Геоспецстрой</div>
-            <i class="header_save fi fi-rs-disk"></i>
-        </div>
+
 
         <div class="content" id="content_main">
             <div class="tasks" id="today_tasks">
@@ -55,28 +55,56 @@
                 </div>
                 
             </div>
+            <div class="menu_wrapper">
+                <div class="menu menu_l">
+                    <!-- <div class="menu_item" id="today_tasks">
+                        <i class="fi fi-sr-input-numeric"></i>
+                        <i class="fi fi-ss-flame"></i>
+                        <p class="menu_item_name title_s">Задачи</p>
+                    </div> -->
+                    <div class="menu_item menu_item_l" id="presets">
+                        <i class="fi fi-sr-input-numeric"></i>
+                        <!-- <i class="fi fi-rr-list-check"></i> -->
+                        <!-- <p class="menu_item_name label_l">Мои списки</p> -->
+                    </div>
+                    <div class="menu_item menu_item_l" id="report_corrections">
+                        <i class="fi fi-sr-input-numeric"></i>
+                        <!-- <p class="menu_item_name label_l">Корректировка отчётов</p> -->
+                    </div>
+                    <div class="menu_item menu_item_l" id="get_reports">
+                        <i class="fi fi-sr-input-numeric"></i>
+                        <!-- <i class="fi fi-rr-receipt"></i> -->
+                        <!-- <p class="menu_item_name label_l">История отчётов</p> -->
+                    </div>
+                    <div class="menu_item menu_item_l" id="personal">
+                        <i class="fi fi-sr-input-numeric"></i>
+                        <!-- <p class="menu_item_name label_l">Настройки</p> -->
+                    </div>
+                </div>
+            </div>
+            
 
-            <div class="menu menu_l">
+            <div class="menu">
                 <!-- <div class="menu_item" id="today_tasks">
                     <i class="fi fi-sr-input-numeric"></i>
                     <i class="fi fi-ss-flame"></i>
                     <p class="menu_item_name title_s">Задачи</p>
                 </div> -->
-                <div class="menu_item menu_item_l" id="presets">
+                <div class="menu_item" id="presets">
                     <i class="fi fi-sr-input-numeric"></i>
                     <!-- <i class="fi fi-rr-list-check"></i> -->
                     <!-- <p class="menu_item_name label_l">Мои списки</p> -->
                 </div>
-                <div class="menu_item menu_item_l" id="report_corrections">
+                <div class="menu_item" id="report_corrections">
                     <i class="fi fi-sr-input-numeric"></i>
                     <!-- <p class="menu_item_name label_l">Корректировка отчётов</p> -->
                 </div>
-                <div class="menu_item menu_item_l" id="get_reports">
+                <div class="menu_item" id="get_reports">
                     <i class="fi fi-sr-input-numeric"></i>
                     <!-- <i class="fi fi-rr-receipt"></i> -->
                     <!-- <p class="menu_item_name label_l">История отчётов</p> -->
                 </div>
-                <div class="menu_item menu_item_l" id="personal">
+                <div class="menu_item" id="personal">
                     <i class="fi fi-sr-input-numeric"></i>
                     <!-- <p class="menu_item_name label_l">Настройки</p> -->
                 </div>
@@ -114,8 +142,34 @@
 
     </div>
 
-        <div class="nav">
-            <div class="nav_main" id="nav_main"></div>
+        <div class="nav_footer">
+            <div class="nav_main" id="nav_main">
+                <div class="menu menu_s">
+                    <!-- <div class="menu_item" id="today_tasks">
+                        <i class="fi fi-sr-input-numeric"></i>
+                        <i class="fi fi-ss-flame"></i>
+                        <p class="menu_item_name title_s">Задачи</p>
+                    </div> -->
+                    <div class="menu_item_s" id="presets">
+                        <i class="fi fi-sr-input-numeric"></i>
+                        <!-- <i class="fi fi-rr-list-check"></i> -->
+                        <!-- <p class="menu_item_name label_l">Мои списки</p> -->
+                    </div>
+                    <div class="menu_item_s" id="report_corrections">
+                        <i class="fi fi-sr-input-numeric"></i>
+                        <!-- <p class="menu_item_name label_l">Корректировка отчётов</p> -->
+                    </div>
+                    <div class="menu_item_s" id="get_reports">
+                        <i class="fi fi-sr-input-numeric"></i>
+                        <!-- <i class="fi fi-rr-receipt"></i> -->
+                        <!-- <p class="menu_item_name label_l">История отчётов</p> -->
+                    </div>
+                    <div class="menu_item_s" id="personal">
+                        <i class="fi fi-sr-input-numeric"></i>
+                        <!-- <p class="menu_item_name label_l">Настройки</p> -->
+                    </div>
+                </div>
+            </div>
             <div class="nav_current" id="nav_tasks"></div>
         </div>
         
